@@ -42,7 +42,7 @@ projectInfo:
 
 ```
 
-**或者**
+**OR**
 
 ```javascript
 const metadata = require('express-metadata');
