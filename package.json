@@ -1,6 +1,6 @@
 {
   "name": "express-metadata",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "express metadata",
   "main": "index.js",
   "scripts": {
