@@ -1,7 +1,7 @@
 {
   "name": "express-metadata",
   "version": "1.0.0",
-  "description": "express metadata",
+  "description": "collect express metadata",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
