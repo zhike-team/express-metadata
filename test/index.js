@@ -27,14 +27,14 @@ describe('express metadata', function() {
 
   it('should return common result', function(done) {
     app.get('/awesome', function(req, res) {
-      res.send('metadata')
+      res.send({ret: 'metadata'})
     });
 
     let server = http.createServer(app).listen(0);
 
     request.get('/awesome')
       .expect(function(res) {
-        expect(res.body).to.match(/metadata/)
+        expect(res.body.ret).to.eql('metadata')
       })
       .end(done)
   })
