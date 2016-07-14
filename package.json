@@ -1,0 +1,23 @@
+{
+  "name": "express-metadata",
+  "version": "0.0.1",
+  "description": "express metadata",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhike-team/express-metadata.git"
+  },
+  "keywords": [
+    "express",
+    "metadata"
+  ],
+  "author": "strucoder <zdwloveschina@gmail.com> (http://www.strucoder.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhike-team/express-metadata/issues"
+  },
+  "homepage": "https://github.com/zhike-team/express-metadata#readme"
+}
