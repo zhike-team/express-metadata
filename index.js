@@ -64,6 +64,7 @@ function metadata(originRouter, prefix) {
 
       let routerArg = {
         name: isName === true ? args[1] : '',
+        method: methods[i],
         url: `${(prefix || '') + args[0]}`
       };
 
