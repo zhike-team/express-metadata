@@ -28,8 +28,8 @@ console.log(app.metadata())
 {
 routersSetting:
     [
-      { name: '', url: '/awesome-uri' },
-      { name: 'createUser', url: '/awesome-uri-2' }
+      { name: '', method: 'get', url: '/awesome-uri' },
+      { name: 'createUser', method: 'post', url: '/awesome-uri-2' }
     ],
 projectInfo:
     {
