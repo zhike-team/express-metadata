@@ -1,5 +1,5 @@
 {
-  "name": "express-metadata",
+  "name": "@zhike/express-metadata",
   "version": "1.0.1",
   "description": "collect express metadata",
   "main": "index.js",
