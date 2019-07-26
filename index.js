@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const projectPath = path.resolve(__dirname, '../..');
+const projectPath = path.resolve(__dirname, '../../../');
 
 const methods = ['head', 'get', 'post', 'put', 'delete', 'patch'];
 const slice = [].slice;
